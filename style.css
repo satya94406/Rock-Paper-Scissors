@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", serif;
+}
+
+.head{
+    background-color: black;
+    color: white;
+    width: 100%;
+    font-weight: 700;
+    height: 5rem;
+    font-size: xx-large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    word-spacing: 15px;
+}
+
+img{
+    height: 10rem;  
+    width: 10rem;   
+    object-fit: cover;
+    border-radius: 50%;  
+    object-fit: cover; 
+    margin-right: 1rem;
+    cursor: pointer;
+
+    &:hover {
+        box-shadow: 0 0 15px darkorange; 
+        transform: scale(1.1); 
+        opacity: 0.8;
+    }
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+    gap: 2rem;
+
+}
+.score_card{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.user_score, .computer_score{
+    text-align: center;
+}
+.result_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+    border-radius: 50px;
+}
+.result_messg{
+    padding: 20px;
+    border-radius: 20px ;
+    font-size: x-large;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    transition: 0.7s ease-in-out;
+}
